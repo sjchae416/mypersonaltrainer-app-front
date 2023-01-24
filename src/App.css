@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	max-width: 960px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	min-height: 100vh;
+}
+
+button {
+	margin: 5px;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.header {
+	margin: 10px;
+}
+
+.navigation-bar {
+	display: flex;
+	flex-direction: row;
+}
+
+.navigation-bar h2 {
+	margin: 5px;
+}
+
+.program {
+	display: flex;
+	flex-direction: row;
+	border: 5px solid black;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.routine {
+	background: rgba(255, 255, 255, 0.3);
+	max-width: 1200px;
+	/* margin: 0 auto; */
+	border: 3px solid red;
+}
+
+.workout {
+	background: rgba(255, 255, 255, 0.1);
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+.workout-add-container {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.workout-add {
+	width: 700px;
+	height: 500px;
+	background-color: #fff;
+}
+
+.workout-add-header,
+.workout-add-body,
+.workout-add-footer {
+	padding: 10px;
+}
+
+.workout-add-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+  /* gap: 10px; */
+}
+
+.workout-body-part:hover {
+	cursor: pointer;
+}
+
+.workout-list:hover {
+	cursor: pointer;
+}
+
+.workout-counter {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/* justify-content: space-between; */
+}
